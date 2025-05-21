@@ -22,7 +22,7 @@ This tool helps analysts, students, and sustainability professionals explore com
 - 🧪 Answer evaluation tab (demo)
 
 ## 📁 Project Structure
-GreenSightAI/
+FTD_ESG_ASSISTANT/
 ├── ESG_BERT/ # Scripts or experiments using BERT for ESG embeddings
 ├── asset/ # Static assets like logo
 │ └── Logo.png
