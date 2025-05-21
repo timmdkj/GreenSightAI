@@ -35,7 +35,7 @@ FTD_ESG_ASSISTANT/
 │   │   └── index.faiss                   # FAISS index built from the chunks
 │   └── Reports_Evaluation_Databases_Drive/  # Annotated evaluation databases for RAGAS and QA tests
 ├── app.py                                # Main Streamlit app (GreenSight AI)
-├── RAG_Model_Evaluation_Notebook.ipynb   # Notebook to test RAGAS evaluation (faithfulness, relevance)
+├── RAG_Model_Evaluation_Notebook.ipynb   # Notebook to test RAGAS evaluation
 ├── requirements-app.txt                  # Minimal list of required packages
 ├── README.md                             # Main documentation file
 ```
