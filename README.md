@@ -38,3 +38,25 @@ pip install -r requirements-app.txt
 
 # Run the Streamlit application
 streamlit run app.py
+
+## 🏗️ Project Architecture
+
+- 📄 **PDF Processing**  
+  Uploads and parses ESG PDF reports using `PyPDF2`. Text is split into overlapping chunks (512 tokens, 50 overlap).
+
+- 🧠 **Embedding & Indexing**  
+  Each chunk is embedded using `text-embedding-3-small` (OpenAI). A FAISS index is built locally and saved for fast similarity search.
+
+- 🔎 **Retrieval & Reranking**  
+  Top-k relevant chunks are retrieved using FAISS and re-ranked using GPT-3.5 prompts that score chunk relevance to the question (0–10).
+
+- 🤖 **Answer Generation**  
+  A final answer is generated using GPT-4o-mini based strictly on the most relevant chunks.
+
+- 🎨 **User Interface**  
+  Built with Streamlit, allowing users to upload PDFs, ask questions, view AI responses, explore source pages, and even listen to the answer via voice synthesis.
+
+- 🧪 **Evaluation (demo)**  
+  A simulated evaluation tab shows estimated reliability for the last answer (manually defined, pending full integration of automatic metrics).
+
+---
