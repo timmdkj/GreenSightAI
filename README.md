@@ -89,7 +89,7 @@ We evaluated the quality of answers using both **automated metrics** and **manua
 The best-performing evaluation configuration is currently integrated into the app (demo only).
 
 📓 For details on all tested methods and full evaluation results, see the notebook:  
-`notebooks/ragas_evaluation.ipynb`
+`RAG_Model_Evaluation_Notebook.ipynb`
 
 ## 🔮 Future Work
 
