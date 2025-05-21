@@ -75,3 +75,12 @@ The best-performing evaluation configuration is currently integrated into the ap
 
 📓 For details on all tested methods and full evaluation results, see the notebook:  
 `notebooks/ragas_evaluation.ipynb`
+
+## 🔮 Future Work
+
+- **Automated Evaluation Integration**  
+  Fully integrate RAGAS-based answer evaluation into the app (currently a static demo), allowing real-time scoring of faithfulness and relevancy for each answer.
+
+- **Table Extraction Improvements**  
+  Improve extraction and processing of tables from ESG reports to better incorporate tabular data into the question-answering workflow.
+
