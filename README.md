@@ -1,7 +1,8 @@
 # GreenSightAI
 
-<img width="598" alt="Logo" src="https://github.com/user-attachments/assets/f9099d98-55d3-4ae8-bfa0-4159c6d646a9" />
+[![Watch the demo](https://img.youtube.com/vi/b0mpqq0c4K4/maxresdefault.jpg)](https://www.youtube.com/watch?v=b0mpqq0c4K4)
 
+Click the thumbnail above to watch the demo of GreenSight AI on YouTube.
 
 ## 📄 **Project Description**
 
@@ -100,8 +101,3 @@ The best-performing evaluation configuration is currently integrated into the ap
 - **Table Extraction Improvements**  
   Improve extraction and processing of tables from ESG reports to better incorporate tabular data into the question-answering workflow.
 
-## 🎥 Demo Video
-
-[![Watch the demo](https://img.youtube.com/vi/b0mpqq0c4K4/maxresdefault.jpg)](https://www.youtube.com/watch?v=b0mpqq0c4K4)
-
-Click the thumbnail above to watch the demo of GreenSight AI on YouTube.
