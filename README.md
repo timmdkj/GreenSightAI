@@ -22,19 +22,19 @@ This tool helps analysts, students, and sustainability professionals explore com
 - 🧪 Answer evaluation tab (demo)
 
 
-## 🛠️ **Installation**
+## 🛠️ Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/GreenSightAI.git
+git clone https://github.com/timmdkj/GreenSightAI.git
 cd GreenSightAI
 
 # Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Sur Windows : venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r requirements-app.txt
 
 # Run the Streamlit application
 streamlit run app.py
