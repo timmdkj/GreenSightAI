@@ -1,1 +1,11 @@
+# ESG Data Examples
+
+This folder contains a simplified example with only one chunked and indexed PDF,  
+to allow quick testing and avoid saturating the GitHub repository.
+
+In practice, when running locally, you can index several dozen PDFs,  
+building a comprehensive and efficient FAISS database.
+
+In our project, we worked with around 20 real PDF reports,  
+providing rich coverage and improved answer quality.
 
