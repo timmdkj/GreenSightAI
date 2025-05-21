@@ -38,7 +38,7 @@ pip install -r requirements-app.txt
 
 # Run the Streamlit application
 streamlit run app.py
-
+```
 ## 🏗️ Project Architecture
 
 - 📄 **PDF Processing**  
