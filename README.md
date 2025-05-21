@@ -60,3 +60,18 @@ streamlit run app.py
   A simulated evaluation tab shows estimated reliability for the last answer (manually defined, pending full integration of automatic metrics).
 
 ---
+
+## 📊 RAGAS Evaluation
+
+We evaluated the quality of answers using both **automated metrics** and **manual (human) evaluation**.
+
+✅ Specifically, we focused on two key RAGAS metrics:  
+- **Faithfulness**: Is the answer grounded in the retrieved context?  
+- **Answer Relevancy**: Does the answer directly address the user's question?
+
+👥 Human evaluation was also conducted to validate and complement the automated scores.
+
+The best-performing evaluation configuration is currently integrated into the app (demo only).
+
+📓 For details on all tested methods and full evaluation results, see the notebook:  
+`notebooks/ragas_evaluation.ipynb`
