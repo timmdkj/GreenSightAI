@@ -5,22 +5,22 @@
 
 ## 📄 **Project Description**
 
-**GreenSightAI** is an intelligent ESG (Environmental, Social, and Governance) document assistant built using **Retrieval-Augmented Generation (RAG)** technology.  
-It enables users to upload ESG reports in PDF format and ask natural language questions, delivering **precise and contextually relevant answers** supported by excerpts from the documents.
+**GreenSightAI** is an intelligent ESG (Environmental, Social, and Governance) document assistant powered by OpenAI's GPT-4o-mini.  
+It allows users to upload ESG PDF reports and ask questions in natural language. Answers are precise, contextual, and backed by content from the document.
 
-Powered by **OpenAI's GPT-4o-mini** and **LlamaIndex**, GreenSightAI helps investors, analysts, and sustainability professionals analyze complex ESG reports **faster and more accurately**. ⚡️📊
+This tool helps analysts, students, and sustainability professionals explore complex ESG disclosures efficiently. ⚡️📊
 
 ---
 
 ## 🚀 **Features**
 
-- 📂 Upload and index ESG PDF reports  
-- ❓ Ask detailed, context-aware questions about the document content  
-- 🔍📄 View the source passages and page numbers that support each answer  
-- 💡 Explanation of AI-generated answers with "Why this answer?" feature  
-- 🧪 Planned features: automated evaluation with RAGAS, multi-document support, dashboard interface  
+- 📤 Upload ESG PDF reports  
+- ❓ Ask natural language questions  
+- 🔍 Get context-based AI answers  
+- 📄 View pages used as sources  
+- 🎧 Optional voice playback of answers  
+- 🧪 Answer evaluation tab (demo)
 
----
 
 ## 🛠️ **Installation**
 
