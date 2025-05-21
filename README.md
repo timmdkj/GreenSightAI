@@ -36,7 +36,7 @@ FTD_ESG_ASSISTANT/
 ├── RAG_Model_Evaluation_Notebook.ipynb  # Notebook to test RAGAS evaluation (faithfulness, relevance)
 ├── requirements-app.txt              # Minimal list of required packages
 ├── README.md                         # Main documentation file
-
+```
 ## 🛠️ Installation
 
 ```bash
