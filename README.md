@@ -24,18 +24,19 @@ This tool helps analysts, students, and sustainability professionals explore com
 ## 📁 Project Structure
 ```text
 FTD_ESG_ASSISTANT/
-├── ESG_BERT/                         # Scripts or experiments using BERT for ESG embeddings
-├── asset/                            # Static assets like logo
+├── ESG_BERT/                             # Scripts or experiments using BERT for ESG embeddings
+├── asset/                                # Static assets like logo
 │   └── Logo.png
-├── data/                             # Contains indexed ESG documents
-│   └── totalenergies/                # Directory for TotalEnergies report
-│       ├── totalenergies.pdf         # Original uploaded ESG report
-│       ├── chunks.txt                # Text chunks with page info (used in FAISS indexing)
-│       └── index.faiss               # FAISS index built from the chunks
-├── app.py                            # Main Streamlit app (GreenSight AI)
-├── RAG_Model_Evaluation_Notebook.ipynb  # Notebook to test RAGAS evaluation (faithfulness, relevance)
-├── requirements-app.txt              # Minimal list of required packages
-├── README.md                         # Main documentation file
+├── data/                                 # Contains indexed ESG documents and evaluation databases
+│   ├── totalenergies/                    # Directory for TotalEnergies report
+│   │   ├── totalenergies.pdf             # Original uploaded ESG report
+│   │   ├── chunks.txt                    # Text chunks with page info (used in FAISS indexing)
+│   │   └── index.faiss                   # FAISS index built from the chunks
+│   └── Reports_Evaluation_Databases_Drive/  # Annotated evaluation databases for RAGAS and QA tests
+├── app.py                                # Main Streamlit app (GreenSight AI)
+├── RAG_Model_Evaluation_Notebook.ipynb   # Notebook to test RAGAS evaluation (faithfulness, relevance)
+├── requirements-app.txt                  # Minimal list of required packages
+├── README.md                             # Main documentation file
 ```
 ## 🛠️ Installation
 
