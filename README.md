@@ -21,6 +21,20 @@ This tool helps analysts, students, and sustainability professionals explore com
 - 🎧 Optional voice playback of answers  
 - 🧪 Answer evaluation tab (demo)
 
+## 📁 Project Structure
+GreenSightAI/
+├── ESG_BERT/ # Scripts or experiments using BERT for ESG embeddings
+├── asset/ # Static assets like logo
+│ └── Logo.png
+├── data/ # Contains indexed ESG documents
+│ └── totalenergies/ # Directory for TotalEnergies report
+│ ├── totalenergies.pdf # Original uploaded ESG report
+│ ├── chunks.txt # Text chunks with page info (used in FAISS indexing)
+│ └── index.faiss # FAISS index built from the chunks
+├── app.py # Main Streamlit app (GreenSight AI)
+├── RAG_Model_Evaluation_Notebook.ipynb # Notebook to test RAGAS evaluation (faithfulness, relevance)
+├── requirements-app.txt # Minimal list of required packages
+├── README.md # Main documentation file
 
 ## 🛠️ Installation
 
