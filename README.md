@@ -73,9 +73,6 @@ streamlit run app.py
 - 🎨 **User Interface**  
   Built with Streamlit, allowing users to upload PDFs, ask questions, view AI responses, explore source pages, and even listen to the answer via voice synthesis.
 
-- 🧪 **Evaluation (demo)**  
-  A simulated evaluation tab shows estimated reliability for the last answer (manually defined, pending full integration of automatic metrics).
-
 ---
 
 ## 📊 RAGAS Evaluation
