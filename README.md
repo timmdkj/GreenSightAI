@@ -6,10 +6,13 @@ Click the thumbnail above to watch the demo of GreenSight AI on YouTube.
 
 ## 📄 **Project Description**
 
+**GreenSightAI leverages RAG (Retrieval-Augmented Generation), a technique that combines document retrieval with generative AI. RAG fetches relevant passages from documents to provide accurate and context-aware answers.** 📚
+
 **GreenSightAI** is an intelligent ESG (Environmental, Social, and Governance) document assistant powered by OpenAI's GPT-4o-mini.  
 It allows users to upload ESG PDF reports and ask questions in natural language. Answers are precise, contextual, and backed by content from the document.
 
 This tool helps analysts, students, and sustainability professionals explore complex ESG disclosures efficiently. ⚡️📊
+
 
 ---
 
